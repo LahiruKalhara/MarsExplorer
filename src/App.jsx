@@ -27,29 +27,34 @@ import 'aos/dist/aos.css';
 
 function App() {
   const [count, setCount] = useState(0)
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
 
-  
   return (
     <>
       <Header />
-      <div className='heroSection'>
+      <div className='heroSection' data-aos="fade-up">
         <div className='backgroundImg'>
           <img src={mainImg} alt="MainImage" />
-          <div className='mainText'>
+          <div className='mainText' data-aos="fade-up">
             <h1>Revealing the<br /> Treasures of the <br /> Universe</h1>
           </div>
           <div className='roboImg'>
             <img src={roboImg} alt="" />
           </div>
         </div>
-        <div className='heroLeft'>
+        <div className='heroLeft' data-aos="fade-up">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta similique eius ullam vel explicabo architecto officiis obcaecati enim eum pariatur perferendis esse ut laborum voluptas, dicta sapiente corporis error nihil? similique eius ullam vel explicabo architecto officiis obcaecati enim eum pariatur perferendis esse ut laborum voluptas</p>
           <a href="">Get Started</a>
           <a className='btnWatch'>Watch the Video</a>
         </div>
       </div>
-      <div className='bodyContainer1'>
-        <div className='logos'>
+      <div className='bodyContainer1' data-aos="fade-up">
+        <div className='logos' data-aos="fade-up">
           <img src={logo1} alt="" />
           <img src={logo2} alt="" />
           <img src={logo3} alt="" />
@@ -58,7 +63,7 @@ function App() {
         <div className='spaceImg'>
           <img src={spaceImg} alt="" />
           <h1>We are commited to<br />making space science<br />accessible to all</h1>
-          <div className='cardContainer'>
+          <div className='cardContainer' data-aos="fade-up">
             <div className='card'>
               <h2>01.</h2>
               <h5>Spacewalks on Mars</h5>
@@ -77,7 +82,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='bodyContainer2'>
+      <div className='bodyContainer2' data-aos="fade-up">
         <div className='textSide'>
           <div className='top'>
             <h2>Mission Data</h2>
@@ -119,7 +124,7 @@ function App() {
           <img src={marsImg} alt="" />
         </div>
       </div>
-      <div className='bodyContainer3'>
+      <div className='bodyContainer3' data-aos="fade-up">
         <div className='backgroundImage'>
           <img src={marsImg2} alt="" />
           <div className='text'>
@@ -142,7 +147,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='bodyContainer4'>
+      <div className='bodyContainer4' data-aos="fade-up">
         <h2>Technical Roles in Mars Exploration</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, asperiores consequatur maiores molestiae incidunt tempora pariatur libero repellat quas harum ratione nihil itaque, nemo soluta alias laboriosam, at minus ipsum!</p>
         <div className='cardContainer'>
@@ -163,12 +168,12 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='bodyContainer5'>
+      <div className='bodyContainer5' data-aos="fade-up">
         <img src={cardImg1} alt="" />
         <img src={cardImg2} alt="" />
         <img src={cardImg3} alt="" />
       </div>
-      <div className='bodyContainer6'>
+      <div className='bodyContainer6' data-aos="fade-up">
         <h1>Testimonials</h1>
         <div className='cardContainer'>
           <div className='card'>
@@ -178,7 +183,7 @@ function App() {
             </div>
             <div className='cardIcon'>
               <img src={cardIcon} alt="" />
-              <p>Martha Smith<br/>California</p>
+              <p>Martha Smith<br />California</p>
             </div>
           </div>
           <div className='card'>
@@ -188,12 +193,12 @@ function App() {
             </div>
             <div className='cardIcon'>
               <img src={cardIcon2} alt="" />
-              <p>Martha Smith<br/>California</p>
+              <p>Martha Smith<br />California</p>
             </div>
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }
