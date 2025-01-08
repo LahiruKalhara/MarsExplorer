@@ -1,0 +1,68 @@
+.heroSection .backgroundImg img{ width: 95%; margin-left: auto; margin-right: auto; display: block;}
+.heroSection .backgroundImg{position: relative;}
+.heroSection .backgroundImg .roboImg{position: absolute; right: 11em; top: 8em;}
+.heroSection .backgroundImg .mainText{position: absolute; top: 8em; color: white; left: 3em; font-size: 1.9rem; line-height: 2.3em;}
+.heroSection .heroLeft{width: 45%; margin-left: 5em;}
+.heroSection .heroLeft p{margin-bottom: 2em;}
+.heroSection .heroLeft a{color: white; background-color: black; padding: 0.9em 3em; text-decoration: none; border-radius: 0.3em;}
+.heroSection .heroLeft .btnWatch{color: black; background-color: rgb(255, 153, 0); border: none; padding: 0.9em 3em; margin-left: 1em; cursor: pointer;}
+
+.bodyContainer1 .logos{display: flex; justify-content: space-between; margin:3.5em 5em}
+.bodyContainer1 .logos img{width: 20%; height: 3em;}
+.bodyContainer1 .spaceImg{position: relative;}
+.bodyContainer1 .spaceImg img{width: 95%; display: block; margin-left: auto; margin-right: auto;}
+.bodyContainer1 .spaceImg h1{color: white; position: absolute; top: 1.8em; left: 1.8em; font-size: 3rem; line-height: 1.3em;}
+
+.bodyContainer1 .cardContainer{display: flex; gap: 2em; justify-content: space-between; margin: 5.4em; margin-top: -11em;}
+.bodyContainer1 .cardContainer .card{width: 25%; background-color: rgb(255, 255, 255); border-radius: 1.6em; padding: 2em 1.5em; box-shadow:rgba(0, 0, 0, 0.123) 0em 2em 4em; }
+.bodyContainer1 .cardContainer .card h2{color: gray; font-size: 3rem;}
+.bodyContainer1 .cardContainer .card h5{font-size: 1.2rem;}
+.bodyContainer1 .cardContainer .card p{margin-top: 1em; color: gray; font-size: 1rem;}
+
+.bodyContainer2{display: flex; margin: 2em 5em;}
+.bodyContainer2 h2{color: rgb(255, 145, 0);}
+.bodyContainer2 ul{display: flex; list-style: none; gap:4em; margin-top: 1.3em;margin-bottom: 1em;}
+.bodyContainer2 p{margin-top: 1em; width: 90%;}
+.bodyContainer2 table{width: 87%;}
+.bodyContainer2 table .right{text-align: right;}
+.bodyContainer2 table tr{height: 4em;}
+.bodyContainer2 .imageSide img{width: 30em;}
+
+.bodyContainer3 .backgroundImage{position: relative;}
+.bodyContainer3 .backgroundImage img{width: 100%;}
+.bodyContainer3 .text{position: absolute; top: 0em; color: white; text-align: center; margin-top: 3em;}
+.bodyContainer3 .text .cardContainer{display: flex; justify-content: center; gap: 13em;}
+.bodyContainer3 .text h2{font-size: 2.5em; }
+.bodyContainer3 .text p{font-weight: 200; width: 78%; margin-left: auto; margin-right: auto; margin-top: 1em;}
+.bodyContainer3 .text h1{font-size: 4em; font-weight: 500; margin-top: 0.3em;}
+.bodyContainer3 .text h5{font-weight: 500; font-size: 1em;}
+
+.bodyContainer4 h2{color: orange; margin-top: 2em; margin-left: 2em;}
+.bodyContainer4 p{width: 60%; margin-left: 3.1em; margin-top: 1.3em;}
+.bodyContainer4 .cardContainer{display: flex; gap: 2em; margin: 3em;}
+.bodyContainer4 .cardContainer .card p{margin-left: 0; width: 100%;}
+.bodyContainer4 .cardContainer .card h4{margin-top: 1em;}
+
+.bodyContainer5{display: flex; gap: 2em; justify-content: center;}
+
+.bodyContainer6{background-color: rgb(229, 243, 242); margin-top: 5em; text-align: center; padding-bottom: 5em;}
+.bodyContainer6 .cardContainer{display: flex; gap: 2em; width: 90%; justify-content: center; margin-left: auto; margin-right: auto;}
+.bodyContainer6 h1{padding-top: 1.5em; font-size: 2em; font-weight: 600;} 
+.bodyContainer6 .cardContainer .card .cardText{background-color: white; margin-top: 3em; border-radius: 1em; padding: 2em;}
+.bodyContainer6 .cardContainer .card .cardText p{font-size: 0.9em; margin-top: 1em; margin-bottom: 1em;}
+.bodyContainer6 .cardContainer .cardIcon{display: flex; justify-content: center; margin-top: 2em; gap: 1em; align-items: center;}
+.bodyContainer6 .cardContainer .cardIcon p{font-size: 0.7rem; align-items: center; text-align: left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

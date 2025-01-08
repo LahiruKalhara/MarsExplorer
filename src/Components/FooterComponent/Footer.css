@@ -1,0 +1,4 @@
+.footer{display: flex; align-items: center; justify-content: space-between; margin: 2em 4em; }
+.footer img{width: 12em;}
+.footer ul{display: flex; list-style: none; gap: 5em;}
+.footer ul li{font-size: 0.8em;}
